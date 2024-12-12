@@ -1,0 +1,40 @@
+/* General body styling */
+body {
+    color: white;
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.3)
+      ),
+      url('../images/Background/Piano') center/cover no-repeat;
+}
+
+/* Title styling */
+.title {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+}
+
+/* Bullet points section styling */
+.instructions {
+    width: 80%;
+    margin: 20px auto; /* Center the section */
+    color: white;
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+.instructions ul {
+    list-style-type: disc; /* Use bullet points */
+    padding-left: 20px; /* Add padding to align bullets */
+}
+
+.instructions ul li {
+    margin-bottom: 10px; /* Add space between list items */
+}
